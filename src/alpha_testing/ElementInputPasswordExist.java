@@ -49,7 +49,7 @@ public class ElementInputPasswordExist {
 			return;
 		}
 		
-		//test if placeholder equals simon
+        //test if placeholder equals simon
 		String tagPlaceholder = tagPassword.getAttribute("placeholder");
 		if (tagPlaceholder.equals("simon")) {
 //			Assert.success();
