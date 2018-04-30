@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2807" started-at="2018-04-30T00:16:36Z" finished-at="2018-04-30T00:16:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2807" started-at="2018-04-30T00:16:36Z" finished-at="2018-04-30T00:16:39Z">
+      <class name="happy_path_testing.LoginTest">
+        <test-method status="PASS" signature="getBrowserPage()[pri:0, instance:happy_path_testing.LoginTest@75da3]" name="getBrowserPage" is-config="true" duration-ms="1683" started-at="2018-04-30T00:16:36Z" finished-at="2018-04-30T00:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserPage -->
+        <test-method status="PASS" signature="attemptToLogin()[pri:0, instance:happy_path_testing.LoginTest@75da3]" name="attemptToLogin" duration-ms="1094" started-at="2018-04-30T00:16:38Z" finished-at="2018-04-30T00:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attemptToLogin -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:happy_path_testing.LoginTest@75da3]" name="TearDown" is-config="true" duration-ms="329" started-at="2018-04-30T00:16:39Z" finished-at="2018-04-30T00:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- happy_path_testing.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

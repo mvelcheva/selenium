@@ -30,7 +30,6 @@ public class LoginFormTest {
 		tagButton.click();
 		
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-		System.out.println("sdfdsf");
 		
 		String tagClass = "form-signin-heading";
 		WebElement tagHeading;

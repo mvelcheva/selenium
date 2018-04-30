@@ -72,7 +72,7 @@ public class LoginFormTest {
 			
 			driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 			
-			String tagXPath = "/html/body/div[1]/h1";
+			String tagXPath = "/html/body/h1";
 			WebElement tagHeading;
 			try {
 				tagHeading = driver.findElement(By.xpath(tagXPath));
